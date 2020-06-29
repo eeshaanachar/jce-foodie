@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".HomePage">
+
+        <ImageButton
+            android:id="@+id/noodles"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#ffffff"
+            android:onClick="noodlesClick"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/coffee"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/gobi"
+            app:layout_constraintTop_toBottomOf="@+id/meal"
+            app:srcCompat="@drawable/noodles" />
+
+        <ImageButton
+            android:id="@+id/coffee"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#ffffff"
+            android:onClick="teaClick"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@id/guideline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/oreo"
+            app:layout_constraintTop_toBottomOf="@+id/noodles"
+            app:srcCompat="@drawable/coffee" />
+
+        <ImageButton
+            android:id="@+id/gobi"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#ffffff"
+            android:onClick="gobiClick"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/oreo"
+            app:layout_constraintEnd_toStartOf="@+id/noodles"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/burger"
+            app:srcCompat="@drawable/gobi" />
+
+        <ImageButton
+            android:id="@+id/meal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#ffffff"
+            android:onClick="mealClick"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/noodles"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/burger"
+            app:layout_constraintTop_toBottomOf="@+id/sandwich"
+            app:srcCompat="@drawable/meal" />
+
+        <ImageButton
+            android:id="@+id/sandwich"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#ffffff"
+            android:onClick="sandwichClick"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/meal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/samosa"
+            app:layout_constraintTop_toBottomOf="@id/textView"
+            app:srcCompat="@drawable/sandwich" />
+
+        <ImageButton
+            android:id="@+id/samosa"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#ffffff"
+            android:onClick="samosaClick"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/burger"
+            app:layout_constraintEnd_toStartOf="@+id/sandwich"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView"
+            app:srcCompat="@drawable/samosa" />
+
+        <ImageButton
+            android:id="@+id/burger"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#ffffff"
+            android:onClick="burgerClick"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/gobi"
+            app:layout_constraintEnd_toStartOf="@+id/meal"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/samosa"
+            app:srcCompat="@drawable/burger" />
+
+        <ImageButton
+            android:id="@+id/oreo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#ffffff"
+            android:onClick="oreoClick"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@id/guideline"
+            app:layout_constraintEnd_toStartOf="@+id/coffee"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gobi"
+            app:srcCompat="@drawable/oreoshake" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="750dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="cursive"
+            android:text="The SJCE Menu"
+            android:textColor="#000"
+            android:textSize="40sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">JCE Insider</string>
+    <array name="foodItems">
+        <item>Burger</item>
+        <item>Sandwich</item>
+        <item>Oreo Shake</item>
+        <item>Coffee</item>
+        <item>Meals</item>
+        <item>Noodles</item>
+        <item>Gobi Manchurian</item>
+        <item>Samosa</item>
+    </array>
+    <array name="restaurants">
+        <item>Café Frappe</item>
+        <item>Café Kushi</item>
+        <item>Mylari Restaurant</item>
+        <item>Nescafe</item>
+        <item>Yampa</item>
+    </array>
+</resources>
