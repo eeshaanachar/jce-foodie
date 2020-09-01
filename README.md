@@ -1,5 +1,5 @@
 # JCE Foodie
-JCE Foodie is mobile app developed by foodies for foodies. We developed it as part of the Software Engineering Course, with emphasis on the various processes involved in the Software Development Life Cycle (SDLC). [See Requirements Engineering presentation](https://photos.app.goo.gl/XzoEye1MXZdGdN6w5)
+JCE Foodie is mobile app developed by foodies for foodies. We developed it as part of the Software Engineering Course, with emphasis on the various processes involved in the Software Development Life Cycle (SDLC). [See Requirements Engineering presentation](https://photos.google.com/share/AF1QipN4AAM6gAYSEezviM1WnM-q_gpLn14ZkR8lWUqBfI0tqlnvtChuAeC8fmXAvrZayg?key=UWc3RWJ3d0NZdDRTaWg2STZIMWxmMFhrUWVELVdn)
 
 ### Objective(s)
 * Provide a POC to the advantages of using comparison based system over rating based system.
